@@ -1,0 +1,20 @@
+# Ignorar variables de entorno
+.env
+
+# Node
+node_modules/
+npm-debug.log
+
+# Logs
+logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+
+# local env files
+.env
+.env.local
+.env.*.local
