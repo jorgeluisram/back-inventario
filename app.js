@@ -37,7 +37,7 @@ db.getConnection((err, connection) => {
 // ================== Rutas ==================
 
 app.get('/', (req, res) => {
-  res.send('Servidor funcionando en Railway ✅');
+  res.send('Servidor funcionando en Railway inventario');
 });
 
 app.get('/api/ok', (req, res) => {
